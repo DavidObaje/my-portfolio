@@ -43,7 +43,6 @@ const projects: Project[] = [
     architectureNote:
     "Structured using reusable components and clear routing to ensure maintainability and efficient updates.",
     liveLink: "https://www.dorcashealthandcare.co.uk",
-    githubLink: "https://github.com/DavidObaje/dorcas-health-and-care-website.git",
   },
   {
     title: "Habit Tracker Mobile Application",
