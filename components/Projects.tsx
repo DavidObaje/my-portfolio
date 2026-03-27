@@ -42,8 +42,8 @@ const projects: Project[] = [
     ],
     architectureNote:
     "Structured using reusable components and clear routing to ensure maintainability and efficient updates.",
-    liveLink: "#",
-    githubLink: "#",
+    liveLink: "https://www.dorcashealthandcare.co.uk",
+    githubLink: "https://github.com/DavidObaje/dorcas-health-and-care-website.git",
   },
   {
     title: "Habit Tracker Mobile Application",
@@ -213,11 +213,14 @@ export default function ProjectsSection() {
                     {project.liveLink && (
                       <a
                         href={project.liveLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="inline-flex items-center gap-2 text-xs tracking-widest uppercase text-gray-900 hover:text-black transition-all font-light"
                       >
                         <ExternalLink className="size-3" />
                         <span>View Live</span>
                       </a>
+
                     )}
                     {project.githubLink && (
                       <a
