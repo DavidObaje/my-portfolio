@@ -50,9 +50,9 @@ const projects: Project[] = [
     overview:
       "A mobile productivity app that allows users to create accounts, track daily habits, and store progress securely using local persistent storage.",
     images: [
-      "/habitApp1.png",
-      "/habitApp2.png",
-      "/habitApp3.png",
+      "/habitApp1.PNG",
+      "/habitApp2.PNG",
+      "/habitApp3.PNG",
     ],
     aspect: "tall" ,
     coreFeatures: [
